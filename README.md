@@ -1,0 +1,1 @@
+## Tasks of the seminar on Python
