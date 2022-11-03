@@ -4,4 +4,4 @@
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
 lst = [2, 3, 4, 5, 6]
-print(lst, '->', [lst[i] * lst[-(i + 1)] for i in range(int(len(lst) / 2 + 0.5))])
+print(lst, '->', [lst[i] * lst[-i - 1)] for i in range((len(lst) + 1) // 2)])
