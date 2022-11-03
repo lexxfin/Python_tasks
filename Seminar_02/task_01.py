@@ -4,4 +4,4 @@
 # 0,56 -> 11
 
 n = input('Введите вещественное число: ')
-print(n, '->', sum([int(i) for i in n if i.isdigit()]))
+print(n, '->', sum(int(i) for i in n if i.isdigit()))
