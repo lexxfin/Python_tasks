@@ -4,7 +4,7 @@
 from sympy import factorint
 
 n = int(input('N: '))
-print(f'{n} = {" * ".join(map(str, factorint(n, multiple=True)))}')
+print(f'{n} -> {factorint(n, multiple=True)}')
 
 # Второй вариант через функцию генератор
 # def factors(num, d=2):
