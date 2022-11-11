@@ -2,7 +2,7 @@
 
 from itertools import groupby
 
-'''Через строки'''
+'''Через строки используя lstrip'''
 # def code(data):
 #     result = ''
 #     tmp = data
@@ -27,6 +27,6 @@ def decode(data):
     return result
 
 
-txt = 'aaaaa555bbbbbbccd'
+txt = 'aaaaa555bbbbbbccddddddd'
 print(f'{txt} -> {code(txt)}')
 print(f'{code(txt)} -> {decode(code(txt))}')
