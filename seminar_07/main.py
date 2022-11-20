@@ -1,4 +1,5 @@
-import ui, model
+import ui
+import model
 
 if __name__ == '__main__':
     ui.start()

@@ -1,5 +1,4 @@
 from tabulate import tabulate
-import db
 
 
 def start():
@@ -10,7 +9,7 @@ def start():
     Также имеется возможность импорта и экспорта справочника в формате JSON.''')
 
 
-def menu():
+def menu() -> str:
     print('''
     Выбери пункт меню:
         1. Добавить новый контакт
@@ -22,7 +21,9 @@ def menu():
     return input().strip()
 
 
-def show_contacts():
-    data = db.from_json()
-    table = [i for i in data.values()]
-    print(tabulate(table, headers='keys', tablefmt='rounded_outline'))
+def show_contacts(data: dict):
+    if len(data):
+        table = [i for i in data.values()]
+        print(tabulate(table, headers='keys', tablefmt='rounded_outline'))
+    else:
+        print('В справочнике нет контактов')
