@@ -1,0 +1,2 @@
+PyTelegramBotAPI~=4.8.0
+sympy~=1.11.1
