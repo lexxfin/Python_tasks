@@ -1,0 +1,70 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Alexey",
+        "surname": "Chernyshov",
+        "bday": "19.06.1984",
+        "work": "Saint-Petersburg",
+        "phone": [
+            "123",
+            "456",
+            "789"
+        ]
+    },
+    "2": {
+        "id": 2,
+        "name": "Dima",
+        "surname": "Terehin",
+        "bday": "07.04.1984",
+        "work": "Moscow",
+        "phone": [
+            "111",
+            "222",
+            "333"
+        ]
+    },
+    "3": {
+        "id": 3,
+        "name": "Mikle",
+        "surname": "Jobs",
+        "bday": "13.03.1990",
+        "work": "Sochi",
+        "phone": [
+            "378"
+        ]
+    },
+    "4": {
+        "id": 4,
+        "name": "Yulia",
+        "surname": "Volkova",
+        "bday": "03.05.2007",
+        "work": "Eysk",
+        "phone": [
+            "987",
+            "666"
+        ]
+    },
+    "5": {
+        "id": 5,
+        "name": "Ksenya",
+        "surname": "Ivanova",
+        "bday": "01.10.2000",
+        "work": "Moscow",
+        "phone": [
+            "111",
+            "222"
+        ]
+    },
+    "6": {
+        "id": 6,
+        "name": "Petr",
+        "surname": "Sidorov",
+        "bday": "02.11.1991",
+        "work": "Spb",
+        "phone": [
+            "999",
+            "111",
+            "200"
+        ]
+    }
+}
